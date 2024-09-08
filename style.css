@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    padding: 0px 80px;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.pexels.com/photos/17328011/pexels-photo-17328011/free-photo-of-woman-with-transparent-umbrella.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.289);
+    position: relative;
+}
+
+.nav h1 {
+    font-size: 25px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    text-transform: capitalize;
+    color: white;
+}
+
+.nav i {
+    font-size: 28px;
+    color: white;
+}
+
+.overlay h5 {
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.overlay h4 {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    color: white;
+    font-size: 45px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.overlay button {
+    letter-spacing: 2px;
+    font-weight: 600;
+    border: 2px solid #fff;
+    text-transform: uppercase;
+    padding: 18px 22px;
+    font-size: 14px;
+    transition: all ease 0.5s;
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    color: #fff;
+    background-color: transparent;
+}
+
+.overlay button:hover{
+    border: none;
+    background-color: #fff;
+    color: black;
+    font-weight: 700;
+    border-radius: 20px;
+}
+
+.img1 {
+    width: 300px;
+    height: 300px;
+    background-image: url(https://images.pexels.com/photos/20447512/pexels-photo-20447512/free-photo-of-a-woman-in-a-hijab-holding-an-apple-laptop.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 40%;
+    right: 5%;
+    box-shadow: -16px 14px 9px;
+}
+
+.overlay1 {
+    height: 100%;
+    width: 100%;
+    background-color: green;
+}
+
+.page2 {
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+    display: flex;
+}
+
+.left {
+    height: 100%;
+    width: 50%;
+    position: relative;
+}
+
+.right {
+    height: 100%;
+    width: 50%;
+    position: relative;
+}
+
+.img2 {
+    height: 450px;
+    width: 300px;
+    background-position: center;
+    background-size: cover;
+    top: 10%;
+    left: 10%;
+    transition: all ease 0.5s;
+    position: absolute;
+    background-image: url(https://images.pexels.com/photos/20248687/pexels-photo-20248687/free-photo-of-king-of-the-jungle.jpeg);
+}
+
+.img3 {
+    width: 300px;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    top: 20%;
+    left: 50%;
+    transition: all ease 0.5s;
+    position: absolute;
+    background-image: url(https://images.pexels.com/photos/20421870/pexels-photo-20421870/free-photo-of-a-deer-standing-in-a-field-with-fall-colors-in-the-background.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+.img2:hover {
+    background-image: url(https://images.pexels.com/photos/20339254/pexels-photo-20339254/free-photo-of-portrait-of-woman-wearing-blue-dress-by-the-lake.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img3:hover {
+    background-image: url(https://images.pexels.com/photos/20180718/pexels-photo-20180718/free-photo-of-taking-a-break.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-position: center;
+}
+
+.right h6 {
+    color: black;
+    font-weight: 500;
+    font-size: 1rem;
+    top: 20%;
+    position: absolute;
+}
+
+.right h2 {
+    position: absolute;
+    top: 30%;
+    font-size: 2rem;
+}
+
+.right p {
+    position: absolute;
+    top: 45%;
+}
